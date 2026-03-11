@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Meu site</title>
-</head>
 
-<body>
+<title>Meu produto</title>
 
-<h1>Meu produto</h1>
+<style>
 
-<p>Clique no botão abaixo para ver o produto:</p>
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+padding:40px;
+}
 
-<a href="https://meli.la/2fRqQhk">
-<button>Ver produto</button>
-</a>
+.box{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:400px;
+margin:auto;
+box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
 
-</body>
-</html>
+h1{
+color:#333;
+}
+
+button{
+background:#28a745;
+color:white;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+
+
+
